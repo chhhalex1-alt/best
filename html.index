@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>G-Tunning</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<canvas id="bg"></canvas>
+<canvas id="sparkCanvas"></canvas>
+
+<header class="navbar">
+<h1>G-Tunning</h1>
+<nav>
+<a href="#home">Acasa</a>
+<a href="#galerie">Galerie</a>
+<a href="#catalog">Catalog</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section id="home" class="hero">
+<h2>Performance. Style. Power.</h2>
+<button class="star-btn">Programeaza</button>
+</section>
+
+<section id="galerie">
+<h2>Galerie</h2>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1617531653332-bd46c24f2068">
+<img src="https://images.unsplash.com/photo-1502877338535-766e1452684a">
+<img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70">
+<img src="https://images.unsplash.com/photo-1549927681-3ee5b9d1d9b5">
+</div>
+</section>
+
+<section id="catalog">
+<h2>Servicii</h2>
+<div class="catalog">
+<div class="card">Soft tuning</div>
+<div class="card">Evacuari</div>
+<div class="card">Body kit</div>
+<div class="card">Diagnoza</div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: contact@gtunning.ro</p>
+<p>Telefon: 0723 456 789</p>
+<p>Adresa: Cluj-Napoca</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
